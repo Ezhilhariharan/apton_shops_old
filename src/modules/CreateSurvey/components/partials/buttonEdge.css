@@ -1,0 +1,31 @@
+.edgebutton {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    border: 1px solid rgb(200, 91, 91);
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1;
+  }
+  
+  .edgebutton:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+  }
+  
+  .edgebutton-foreignobject div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+  }
+
+  .custom-file-upload{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
